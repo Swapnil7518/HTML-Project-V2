@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+.navbar{
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    column-gap: 7rem;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    column-gap: 3rem;
+    list-style: none;
+}
+
+.navbar a{
+    color: rgb(124, 120, 120);
+    text-decoration: none;
+   
+}
+
+.nav-link a:hover{
+    color: #ff4400;
+    position: relative;
+    
+}
+
+.nav-link a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(124, 120, 120);
+    transform-origin: bottom ;
+    transition: transform 0.25s ease-out;
+  }
+
+
+  .nav-link a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom;
+  }
+
+
+
+ span{
+    color: #ff4400;
+}
+
+#logo{
+    font-size: 1.5rem;
+}
+
+.icon{
+    display: flex;
+    column-gap: 1.3rem;
+}
+
+#logo a:hover{
+ color: #ff4400;
+}
+
+header{
+    background-image: url(./images/medium-shot-business-women-high-five.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    /* text-align: center; */
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+#containerone{
+    width: 50%;
+    color: white;
+    margin-left: 3rem;
+}
+
+#containerone h1{
+font-size: 3.2rem;
+}
+
+#containerone p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+#containerone button{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    padding: 20px 40px 20px 40px;
+    border-radius: 30px;
+}
+
+#containerthree{
+    margin: 3rem;
+    gap: 3rem;
+    display: flex;
+
+   
+}
+
+#containerthree h3{
+    font-size: 1.8rem;
+}
+
+#containerthree p{
+    font-size: 1.2rem;
+}
+
+
+.containertwo{
+    margin: 4rem;
+    font-size: 1.7rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

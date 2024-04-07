@@ -748,12 +748,19 @@ h1 {
         
     }
 
+    .foot{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    #logo2 {
+        gap: 1rem;
+    }
+
     
 .itemsdd {
     display: flex;
     flex-direction: column;
-    /* align-content: center; */
-    /* justify-content: center; */
     align-items: center;
 
 }

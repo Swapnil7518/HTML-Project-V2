@@ -20,18 +20,50 @@
 
     <!-- Navigation -->
 
+
+   
+
+
     <nav class="navbar">
+
+        <div class="hamburger">
+            <i class='bx bx-menu ' style="font-size: 2rem;" onclick="showSidebar()"></i>
+        </div>
+
+
+
         <div id="logo">
             <a href=""><strong><span>Little</span> Fashion</strong></a>
         </div>
 
+
+
         <div class="nav-link">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Story</a></li>
+            <ul class="sidebar">
+
+                <li><a href="./index.html" onclick="hideSidebar()"><i class='bx bx-x' style="font-size: 2rem;"></i></a>
+                </li>
+
+                <div id="logo">
+                    <a href=""><strong><span>Little</span> Fashion</strong></a>
+                </div>
+
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">Story</a></li>
                 <li><a href="">Products</a></li>
                 <li><a href="">FAQs</a></li>
                 <li><a href="">Contact</a></li>
+            </ul>
+
+
+            <ul>
+
+                <li class="hideOnmobile"><a href="./index.html">Home</a></li>
+                <li class="hideOnmobile"><a href="./about.html">Story</a></li>
+                <li class="hideOnmobile"><a href="">Products</a></li>
+                <li class="hideOnmobile"><a href="">FAQs</a></li>
+                <li class="hideOnmobile"><a href="">Contact</a></li>
+
             </ul>
         </div>
 
@@ -39,22 +71,28 @@
         <div class="icon">
             <a href=""><i class='bx bx-user  bx-sm'></i></a>
             <a href=""><i class='bx bx-shopping-bag bx-sm'></i></a>
+
+
         </div>
     </nav>
 
     <!-- Header -->
 
-    <header>
+    <header class="bg-image">
         <div id="containerone">
+            <!-- <img src="./images/medium-shot-business-women-high-five.jpeg" alt=""> -->
             <div>
-                <h1>Cool Fashion</h1>
+                <h1 >Cool Fashion</h1>
                 <p>Little fashion template comes with total 8 HTML pages provided by Tooplate website.</p>
                 <a href=""><button>LEARN MORE ABOUT US</button></a>
             </div>
         </div>
     </header>
 
-    <section>
+
+
+
+    <section class="hold_product">
 
         <div class="containertwo">
             <h2>Get started with <span>Little</span> Fashion</h2>
@@ -63,25 +101,138 @@
 
         <div id="containerthree">
             <div>
-                <img src="./images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" alt="">
+                <img src="./images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" alt="" width="700px" height="100%">
             </div>
             <div>
-             
+
                 <h3>Good <span>Design</span> Ideas for <span>your</span> fashion</h3>
                 <p>Little Fashion templates comes with sign in / sign up pages, product listing / product detail, about,
-                    FAQs, and contact page. Since this HTML template is based on Boostrap 5 CSS library, you can feel free
-                    to add more components as you need.</p>
+                    FAQs, and contact page. Since this HTML template is based on Boostrap 5 CSS library, you can feel
+                    free to add more components as you need.</p>
             </div>
         </div>
-      
 
     </section>
 
 
 
+    <section class="shop">
+        <div>
+            <img src="./images/retail-shop-owner-mask-social-distancing-shopping.jpg" alt="owner" width="650px"
+                height="100%">
+        </div>
+        <div class="shop2">
+            <h3><span>Retail</span> shop owners</h3>
+            <p>Credits go to Unsplash and FreePik websites for images used in this Little Fashion by Tooplate.</p>
+            <a href="">EXPLORE PRODUCTS</a>
+        </div>
+
+    </section>
+
+
+    <section>
+        <h3 id="product">Featured Products</h3>
+
+             <!-- <div>
+                <div>
+                    <img src="/images/.evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" alt="" width="330px" height="350px">
+                    
+                </div>
+                <div class="item1">
+                    <div>
+                        <h3>Tree pot</h3>
+                        <small>$25</small>
+                    </div>
+                    <p>Original package design from house</p>
+              
+                
+       
+
+            <div>
+                <img src="./images/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" alt="" width="330px" height="350px">
+                <h3>Tree pot</h3>
+                <p>Original package design from house</p>
+            </div>
+
+            <div>
+                <img src="./images/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" alt="" width="330px" height="350px">
+                <h3>Tree pot</h3>
+                <p>Original package design from house</p>
+            </div>
+        
+        </div> 
+        </div>   -->
+
+
+     <div class="itemsdd">
+
+            <div class="item1" >
+                <img src="./images/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" alt="" width="320px" height="350px">
+                <h3 class="price">Tree pot <span>$25</span></h3>
+                <p>Original package design from house</p>
+            </div>
+
+            <div class="item1" >
+                <img src="./images/jordan-nix-CkCUvwMXAac-unsplash.jpeg" alt="" width="320px" height="350px">
+                <h3 class="price">Tree pot <span>$25</span></h3>
+                <p>Original package design from house</p>
+            </div>
+
+            <div class="item1">
+                <img src="./images/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" alt="" width="320px" height="350px">
+                <h3 class="price">Tree pot <span>$25</span></h3>
+                <p>Original package design from house</p>
+            </div>
+
+        </div> 
+
+    
+        <div class="btn">
+            <a href="">VIEW ALL PRODUCTS </a>
+        </div> 
+
+     </section>  
 
 
 
+     <footer>
+
+        <div  class="foot">
+            <div>
+                <div id="logo2">
+                    <a href=""><strong><span>Little</span> Fashion</strong></a>
+                    <p>Copyright © 2022 Little Fashion</p>
+                    <p>Designed by Tooplate</p>
+                </div>
+            </div>
+    
+            <div class="col1">
+                <h4>Sitemap</h4>
+                <ul>
+                    <li>Story</li>
+                    <li>Products</li>
+                    <li>Privacy policy</li>
+                    <li> FAQs</li>
+                    <li> Contact</li>
+                </ul>
+            </div>
+    
+            <div class="col2">
+                <h4>Social</h4>
+                <div class="icons">
+                    <i class='bx bxl-youtube bx-sm'></i>
+                    <i class='bx bxl-whatsapp bx-sm'></i>
+                    <i class='bx bxl-instagram bx-sm' ></i>
+                    <i class='bx bxl-skype bx-sm' ></i>
+                </div>
+           
+                
+            </div>
+
+        </div>
+ 
+
+    </footer> 
 
 
 
@@ -91,5 +242,6 @@
 </body>
 
 
+<script src="./script.js"></script>
 
 </html>
